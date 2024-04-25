@@ -17,7 +17,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    void toggle() {
+    void set () {
       setState(() {});
     }
     return MaterialApp(
@@ -40,9 +40,9 @@ class _MyAppState extends State<MyApp> {
                   children: [
                     textcolumn(),
                     SizedBox(height: 90,),
-                    LightButton(toggle: toggle),
+                    LightButton(toggle: set),
 
-                    darkButton(toggle: toggle),
+                    darkButton(toggle: set),
                   ],
                 )
             ),

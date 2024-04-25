@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 
 import '../../Utils/golbal_variable.dart';
 
-Widget LightButton({required  toggle}) {
+Widget LightButton({required  set}) {
   return InkWell(
     onTap: () {
-      toggle();
+      set();
       isDark = false;
     },
     child: Container(
