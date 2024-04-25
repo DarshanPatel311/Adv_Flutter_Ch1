@@ -35,7 +35,7 @@ class _MyAppState extends State<MyApp> {
                     color: Colors.black12,
                     blurRadius: 8,
                   )
-                ], color: Colors.white, borderRadius: BorderRadius.circular(12)),
+                ],  color: (isDark)?Colors.black:Colors.white, borderRadius: BorderRadius.circular(12)),
                 child:Column(
                   children: [
                     textcolumn(),

@@ -15,7 +15,7 @@ Widget darkButton({required  toggle}) {
       height: 100,
       width: double.infinity,
       decoration: BoxDecoration(
-          color: Colors.red,
+          color: (isDark)?Colors.amber:Colors.redAccent,
           borderRadius: BorderRadius.circular(15)
       ),child: Text('Dark Icon',style: TextStyle(
         fontSize: 25,

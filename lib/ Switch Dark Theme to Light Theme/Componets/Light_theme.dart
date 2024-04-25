@@ -15,7 +15,7 @@ Widget LightButton({required  toggle}) {
       height: 100,
       width: double.infinity,
       decoration: BoxDecoration(
-          color: Colors.amber,
+          color: (isDark)?Colors.redAccent:Colors.amber,
           borderRadius: BorderRadius.circular(15)
       ),child: Text('Light Icon',style: TextStyle(
         fontSize: 25,
