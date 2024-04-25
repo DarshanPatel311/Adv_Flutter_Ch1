@@ -7,14 +7,14 @@ import 'Componets/Dark_them.dart';
 import 'Componets/Light_theme.dart';
 import 'Componets/Text.dat.dart';
 
-class MyApp extends StatefulWidget {
-  const MyApp({super.key});
+class ThemeScreen extends StatefulWidget {
+  const ThemeScreen({super.key});
 
   @override
-  State<MyApp> createState() => _MyAppState();
+  State<ThemeScreen> createState() => _MyAppState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _MyAppState extends State<ThemeScreen> {
   @override
   Widget build(BuildContext context) {
     void set () {
@@ -34,17 +34,16 @@ class _MyAppState extends State<MyApp> {
                   BoxShadow(
                     color: Colors.black12,
                     blurRadius: 8,
-                  )
+                  ),
                 ],  color: (isDark)?Colors.black:Colors.white, borderRadius: BorderRadius.circular(12)),
                 child:Column(
                   children: [
                     textcolumn(),
                     SizedBox(height: 90,),
-                    LightButton(toggle: set),
-
-                    darkButton(toggle: set),
+                    LightButton(set: set),
+                    darkButton(set: set),
                   ],
-                )
+                ),
             ),
           )),
     );
