@@ -25,7 +25,7 @@
 
   <div align="center">
     <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/tree/master/lib/Stepper">👉 📚 Go to dart file 📚 👈</a>
-    advancech1
+     adv_flutter_ch1
   </div></p>
   <h3 align="center">🔥Diagram 🔥</h3>
 <p align="center">
@@ -35,7 +35,7 @@
 
   <div align="center">
     <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch1">👉 📚 Go to dart file 📚 👈</a>
-    advancech1
+    adv_flutter_ch1
 
   </div>
 
