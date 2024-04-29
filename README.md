@@ -11,6 +11,7 @@
   <div align="center">
     <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/tree/master/lib/%20Switch%20Dark%20Theme%20to%20Light%20Theme">👉 📚 Go to dart file 📚 👈</a>
     adv_flutter_ch1
+![Screenshot_20240429_115711]()
 
 
 
@@ -18,5 +19,26 @@
 <video src="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/cb44de16-8191-4865-a2eb-f54068644ca8" width="400">
   </div>
 </p>
+<h3 align="center">🔥 Stepper 🔥</h3>
+<p align="center">
+  <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/bdef87fa-647f-42e4-8621-5a15bbaa066a' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/AnjaliPurohit2811/advancech1/assets/143180602/cef9bd1d-8299-45fb-874f-6e691998809b' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <div align="center">
+    <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/tree/master/lib/Stepper">👉 📚 Go to dart file 📚 👈</a>
+     adv_flutter_ch1
+  </div></p>
+  <h3 align="center">🔥Diagram 🔥</h3>
+<p align="center">
+  <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/b81dd13e-2316-4c82-a521-f77b9ceb69b7' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+  <div align="center">
+    <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch1">👉 📚 Go to dart file 📚 👈</a>
+    adv_flutter_ch1
+
+  </div>
 
 
