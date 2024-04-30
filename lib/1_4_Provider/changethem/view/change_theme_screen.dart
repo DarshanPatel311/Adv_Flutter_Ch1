@@ -2,8 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../../Utils/golbal_variable.dart';
-import '../../../Utils/golbal_variable.dart';
+
 import '../provider/theme_provider.dart';
 
 class ChangeTheme extends StatelessWidget {
@@ -50,7 +49,7 @@ class ChangeTheme extends StatelessWidget {
                     fontSize: 20
                   ),),
                   Spacer(),
-                  Switch(value: Provider.of<ThemeProvider>(context,listen: true).isDark, onChanged: (value) {
+                  Switch(value: Provider.of<ThemeProvider>(context,listen: true).isDark,inactiveTrackColor: Colors.purple,activeColor:  Colors.yellow,onChanged: (value) {
                     Provider.of<ThemeProvider>(context,listen: false).ChangeTheme(value);
 
                   },)
