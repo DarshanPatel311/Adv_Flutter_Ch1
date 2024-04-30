@@ -28,7 +28,7 @@ class CounterScreen extends StatelessWidget {
         onPressed: () {
           Provider.of<CounterProvider>(context, listen: false).add();
           },
-        child: Icon(Icons.add),
+        child: Icon(Icons.add,color: Colors.white,),
 
 
       ),
