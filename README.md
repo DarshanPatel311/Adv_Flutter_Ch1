@@ -35,9 +35,6 @@
 
 
 
-  <div align="center">
-    <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch1">👉 📚 Go to dart file 📚 👈</a>
-    adv_flutter_ch1
 
 
 
