@@ -42,7 +42,7 @@ class ChangeTheme extends StatelessWidget {
               child: Row(
                 children: [
 
-                  Provider.of<ThemeProvider>(context,listen: true).isDark?Image.asset('assets/img/moon.png',height: 33,):Icon(Icons.light_mode,color: Colors.purple,),
+                  Provider.of<ThemeProvider>(context,listen: true).isDark? Icon(Icons.dark_mode , color: Colors.yellow, size: 30,):Icon(Icons.light_mode,color: Colors.purple, size: 30,),
                   SizedBox(width:Provider.of<ThemeProvider>(context,listen: true).isDark?25:35,),
                   Text(Provider.of<ThemeProvider>(context,listen: true).isDark?"Light Mode":"Dark Mode",style: TextStyle(
                     fontWeight: FontWeight.bold,
@@ -61,7 +61,7 @@ class ChangeTheme extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 10),
               child: Row(
                 children: [
-                  Icon(Icons.grid_on_sharp,size: 35,color:Provider.of<ThemeProvider>(context,listen: true). isDark?Colors.blue:Colors.green,),
+                  Icon(Icons.grid_on_sharp,size: 30,color:Provider.of<ThemeProvider>(context,listen: true). isDark?Colors.blue:Colors.green,),
                   SizedBox(width: 25,),
                   Text("Story",style: TextStyle(
                     fontWeight: FontWeight.bold,
@@ -76,7 +76,7 @@ class ChangeTheme extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 10),
               child: Row(
                 children: [
-                  Icon(Icons.settings,size: 35,color: Provider.of<ThemeProvider>(context,listen: true).isDark?Colors.pink:Colors.blue,),
+                  Icon(Icons.settings,size: 30,color: Provider.of<ThemeProvider>(context,listen: true).isDark?Colors.pink:Colors.blue,),
                   SizedBox(width: 25,),
                   Text("Settings and Privacy",style: TextStyle(
                     fontWeight: FontWeight.bold,
@@ -91,7 +91,7 @@ class ChangeTheme extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 10),
               child: Row(
                 children: [
-                  Icon(Icons.message_outlined,size: 35,color: Provider.of<ThemeProvider>(context,listen: true).isDark?Colors.yellow.shade300:Colors.deepOrange.shade200,),
+                  Icon(Icons.message_outlined,size: 30,color: Provider.of<ThemeProvider>(context,listen: true).isDark?Colors.yellow.shade300:Colors.deepOrange.shade200,),
                   SizedBox(width: 25,),
                   Text("Help Center",style: TextStyle(
                     fontWeight: FontWeight.bold,
@@ -106,12 +106,13 @@ class ChangeTheme extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 10),
               child: Row(
                 children: [
-                  Icon(Icons.notifications,size: 35,color: Provider.of<ThemeProvider>(context,listen: true).isDark?Colors.amber:Colors.purple,),
+                  Icon(Icons.notifications,size: 30,color: Provider.of<ThemeProvider>(context,listen: true).isDark?Colors.amber:Colors.purple,),
                   SizedBox(width: 25,),
                   Text("Notification",style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 20
                   ),),
+
 
 
                 ],

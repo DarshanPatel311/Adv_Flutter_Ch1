@@ -1,5 +1,6 @@
 import 'package:adv_flutter_ch1/1_4_Provider/changethem/provider/theme_provider.dart';
 import 'package:adv_flutter_ch1/1_4_Provider/counter/provider/counter_provider.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -33,8 +34,8 @@ class _MyAppState extends State<MyApp> {
 
       debugShowCheckedModeBanner: false,
 
-      theme: ThemeData.light(),
-      darkTheme: ThemeData.dark(),
+      theme: ThemeData.light(useMaterial3: false),
+      darkTheme: ThemeData.dark(useMaterial3: false),
 
 
       initialRoute: '/ChangeTheme',
