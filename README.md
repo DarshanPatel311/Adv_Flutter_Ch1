@@ -10,7 +10,7 @@
 
   <div align="center">
     <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/tree/master/lib/%20Switch%20Dark%20Theme%20to%20Light%20Theme">👉 📚 Go to dart file 📚 👈</a>
-    adv_flutter_ch1
+    Adv_Flutter_Ch1
 
 
 
@@ -26,7 +26,7 @@
 
   <div align="center">
     <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/tree/master/lib/Stepper">👉 📚 Go to dart file 📚 👈</a>
-     adv_flutter_ch1
+     Adv_Flutter_Ch1
   </div></p>
   <h3 align="center">🔥Diagram 🔥</h3>
 <p align="center">
@@ -50,7 +50,7 @@
   </div></p>
   <div align="center">
     <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/tree/master/lib/1_4_Provider/changethem">👉 📚 Go to dart file 📚 👈</a>
-     adv_flutter_ch1
+      Adv_Flutter_Ch1
   </div></p>
 
 
