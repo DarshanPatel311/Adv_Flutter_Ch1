@@ -43,7 +43,6 @@
   <h3 align="center">🔥 Provider 🔥</h3>
 <p align="center">
   <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/a0046f34-dd7d-4ec3-98b6-837c6afb85ce' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src='' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
   <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/877d2b76-fcb9-4718-b763-e735d77706ce' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
    <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/c785eaec-f5b5-4ed2-a466-69f5bac22203' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
     <div align="center">
