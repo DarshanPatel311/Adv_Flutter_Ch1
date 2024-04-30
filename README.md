@@ -39,6 +39,16 @@
     <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch1">👉 📚 Go to dart file 📚 👈</a>
     adv_flutter_ch1
 
+
   </div>
+  <h3 align="center">🔥 Provider 🔥</h3>
+<p align="center">
+  <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/a0046f34-dd7d-4ec3-98b6-837c6afb85ce' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <div align="center">
+    <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/tree/master/lib/1_4_Provider/counter">👉 📚 Go to dart file 📚 👈</a>
+     adv_flutter_ch1
+  </div></p>
 
 
