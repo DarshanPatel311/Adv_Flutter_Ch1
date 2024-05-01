@@ -43,7 +43,7 @@ class ChangeTheme extends StatelessWidget {
                 children: [
 
                   Provider.of<ThemeProvider>(context,listen: true).isDark? Icon(Icons.dark_mode , color: Colors.yellow, size: 30,):Icon(Icons.light_mode,color: Colors.purple, size: 30,),
-                  SizedBox(width:Provider.of<ThemeProvider>(context,listen: true).isDark?25:35,),
+                  SizedBox(width:Provider.of<ThemeProvider>(context,listen: true).isDark?25:25,),
                   Text(Provider.of<ThemeProvider>(context,listen: true).isDark?"Light Mode":"Dark Mode",style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 20
