@@ -1,23 +1,23 @@
 import 'package:adv_flutter_ch1/1_4_Provider/changethem/provider/theme_provider.dart';
 import 'package:adv_flutter_ch1/1_4_Provider/counter/provider/counter_provider.dart';
-import 'package:adv_flutter_ch1/1_5_one_time_intro_screen/view/intro_screen1.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import ' Switch Dark Theme to Light Theme/Theme_Screen.dart';
-import '1_4_Provider/changethem/view/change_theme_screen.dart';
-import '1_4_Provider/counter/view/counter_Screen.dart';
-import '1_5_one_time_intro_screen/view/intro_screen2.dart';
-import '1_5_one_time_intro_screen/view/intro_screen3.dart';
-import 'Stepper/Stepper_Screen.dart';
+
+import '1_5_one_time_intro_screen/provider/intro_provider.dart';
+
+import '1_6_contact_page/view/contact_screen.dart';
 
 
 void main() {
   runApp( MultiProvider(providers: [
 
     ChangeNotifierProvider(create: (context) => CounterProvider(),),
-    ChangeNotifierProvider(create: (context) => ThemeProvider(),)
+    ChangeNotifierProvider(create: (context) => ThemeProvider(),),
+  ChangeNotifierProvider(
+  create: (context) => IntroProvider(),),
+
   ],child: MyApp(),));
 }
 class MyApp extends StatefulWidget {
@@ -41,19 +41,7 @@ class _MyAppState extends State<MyApp> {
       darkTheme: ThemeData.dark(useMaterial3: false),
 
 
-      initialRoute: '/intro1',
-      routes: {
-
-        '/Stepper':(context) => StepperApp(),
-        '/Light/dark':(context) => ThemeScreen(),
-        '/CounterScreen':(context) => CounterScreen(),
-        '/ChangeTheme':(context) => ChangeTheme(),
-        '/intro1':(context) => IntroScreen1(),
-        '/intro2':(context) => IntroScreen2(),
-        '/intro2':(context) => IntroScreen2(),
-        '/intro3':(context) => IntroScreen3(),
-
-      },
+      home: ContactScreen(),
     );
   }
 }

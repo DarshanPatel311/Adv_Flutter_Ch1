@@ -1,3 +1,4 @@
+import 'package:adv_flutter_ch1/1_5_one_time_intro_screen/view/intro_screen2.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -52,7 +53,9 @@ class IntroScreen1 extends StatelessWidget {
             ),
             InkWell(
               onTap: () {
-                Navigator.of(context).pushNamed('/intro2');
+                Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) => IntroScreen2(),
+                ));
               },
               child: Container(
                 height: 40,

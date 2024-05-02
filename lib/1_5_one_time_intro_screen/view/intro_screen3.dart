@@ -1,5 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
+import '../provider/intro_provider.dart';
+import 'Home_Screen.dart';
 
 class IntroScreen3 extends StatelessWidget {
   const IntroScreen3({super.key});
@@ -27,7 +31,7 @@ class IntroScreen3 extends StatelessWidget {
                   height: 350,
                   width: 300,
                   child: Image.asset(
-                    'assets/img/3.png',
+                    'assets/img/2.png',
                     fit: BoxFit.cover,
                   )),
               SizedBox(height: 70,),
@@ -51,17 +55,25 @@ class IntroScreen3 extends StatelessWidget {
               SizedBox(
                 height: 40,
               ),
-              Container(
-                height: 40,
-                width: 120,
-                decoration: BoxDecoration(
-                    color: Color(0xff2A2D37),
-                    borderRadius: BorderRadius.circular(10)),
-                child: Center(
-                  child: Text(
-                    'Get started',
-                    style:
-                    TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+              InkWell(
+                onTap: () {
+                  Provider.of<IntroProvider>(context, listen: false ).onPressed();
+                  Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => HomeScreen(),
+                  ));
+                },
+                child: Container(
+                  height: 40,
+                  width: 120,
+                  decoration: BoxDecoration(
+                      color: Color(0xff2A2D37),
+                      borderRadius: BorderRadius.circular(10)),
+                  child: Center(
+                    child: Text(
+                      'Get started',
+                      style:
+                      TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                    ),
                   ),
                 ),
               )
