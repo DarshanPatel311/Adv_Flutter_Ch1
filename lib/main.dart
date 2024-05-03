@@ -9,6 +9,7 @@ import 'package:provider/provider.dart';
 import '1_5_one_time_intro_screen/provider/intro_provider.dart';
 
 import '1_6_contact_page/view/contact_screen.dart';
+import '1_7_Photo_Gallery/provider/gallery_provider.dart';
 
 
 void main() {
@@ -18,6 +19,8 @@ void main() {
     ChangeNotifierProvider(create: (context) => ThemeProvider(),),
   ChangeNotifierProvider(
   create: (context) => IntroProvider(),),
+    ChangeNotifierProvider(
+      create: (context) => GalleryProvider(),),
 
   ],child: MyApp(),));
 }

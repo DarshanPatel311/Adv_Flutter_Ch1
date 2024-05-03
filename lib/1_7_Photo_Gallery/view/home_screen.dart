@@ -1,8 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+
+import 'homescreen/components/album_view.dart';
+
 class PhotoScreen extends StatelessWidget {
   const PhotoScreen({super.key});
+
+  get provider => null;
 
   @override
   Widget build(BuildContext context) {
@@ -76,19 +81,7 @@ class PhotoScreen extends StatelessWidget {
               ],
             ),
           ),
-          // GridView.builder(
-          //   itemCount: 5,
-          //   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          //   crossAxisCount: 3,
-          //   mainAxisExtent: 190
-          // ), itemBuilder: (context, index) => Container(
-          //   height: 90,
-          //   width: 90,
-          //   decoration: BoxDecoration(
-          //       color: Colors.blue,
-          //       borderRadius: BorderRadius.circular(10)
-          //   ),
-          // ),)
+          AlbumView(provider:provider)
 
         ],
       ),
