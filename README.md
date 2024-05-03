@@ -12,10 +12,6 @@
     <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/tree/master/lib/%20Switch%20Dark%20Theme%20to%20Light%20Theme">👉 📚 Go to dart file 📚 👈</a>
     Adv_Flutter_Ch1
 
-
-
-
-
 <video src="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/cb44de16-8191-4865-a2eb-f54068644ca8" width="400">
   </div>
 </p>
@@ -60,12 +56,25 @@
     <video src="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/fb3d6093-5406-434d-a72d-686443bc79c3" width="400">
   </div></p>
 
-
-
-
-   
-  <div align="center">
+ <div align="center">
     <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/tree/master/lib/1_5_one_time_intro_screen">👉 📚 Go to dart file 📚 👈</a>
+      Adv_Flutter_Ch1
+  </div></p>
+
+ <h3 align="center">🔥  Contact Us Page  🔥</h3>
+<p align="center">
+  <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/aa65349c-f8cc-4bc1-998e-56874678a1e2' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+ <div align="center">
+    <video src="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/c6e87aa0-f92d-4b5a-aa63-e8f24ae75abf" width="400">
+  </div></p>
+
+
+
+
+
+  <div align="center">
+    <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/tree/master/lib/1_6_contact_page/view">👉 📚 Go to dart file 📚 👈</a>
       Adv_Flutter_Ch1
   </div></p>
   
