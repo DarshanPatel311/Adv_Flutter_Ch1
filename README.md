@@ -68,13 +68,25 @@
  <div align="center">
     <video src="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/c6e87aa0-f92d-4b5a-aa63-e8f24ae75abf" width="400">
   </div></p>
-
-
-
-
-
   <div align="center">
     <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/tree/master/lib/1_6_contact_page/view">👉 📚 Go to dart file 📚 👈</a>
+      Adv_Flutter_Ch1
+  </div></p>
+
+  
+
+
+
+ <h3 align="center">🔥  Galleyr App  🔥</h3>
+<p align="center">
+  <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/ff0ba032-f6d4-41fc-aef7-c6414c60ff67' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/47b3aabb-f27d-4a63-b60d-d145b5dd2afa' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+ <div align="center">
+    <video src="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/47a53e59-a223-43ed-ae1d-fd694b307da9" width="400">
+  </div></p>
+  <div align="center">
+    <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/tree/master/lib/1_7_gallery">👉 📚 Go to dart file 📚 👈</a>
       Adv_Flutter_Ch1
   </div></p>
   
