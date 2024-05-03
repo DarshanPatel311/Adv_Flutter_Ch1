@@ -1,5 +1,6 @@
 import 'package:adv_flutter_ch1/1_4_Provider/changethem/provider/theme_provider.dart';
 import 'package:adv_flutter_ch1/1_4_Provider/counter/provider/counter_provider.dart';
+import 'package:adv_flutter_ch1/1_7_Photo_Gallery/view/home_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -41,7 +42,7 @@ class _MyAppState extends State<MyApp> {
       darkTheme: ThemeData.dark(useMaterial3: false),
 
 
-      home: ContactScreen(),
+      home: PhotoScreen(),
     );
   }
 }

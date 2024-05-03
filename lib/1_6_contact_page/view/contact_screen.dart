@@ -1,5 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart' as launcher;
 
 class ContactScreen extends StatelessWidget {
   const ContactScreen({super.key});
@@ -41,8 +41,12 @@ class ContactScreen extends StatelessWidget {
           SizedBox(
             height: 50,
           ),
+          //call
           InkWell(
-            onTap: () {},
+            onTap: () {
+              Uri uri=Uri.parse('tel:+91 6353600958');
+              launcher.launchUrl(uri);
+            },
             child: Container(
               height: 70,
               width: 300,
@@ -74,8 +78,12 @@ class ContactScreen extends StatelessWidget {
           SizedBox(
             height: 10,
           ),
+          //mail
           InkWell(
-            onTap: () {},
+            onTap: () { 
+              Uri uri=Uri.parse('mailto:dkpatel3116@gmail.com');
+              launcher.launchUrl(uri);
+            },
             child: Container(
               height: 70,
               width: 300,
@@ -107,8 +115,12 @@ class ContactScreen extends StatelessWidget {
           SizedBox(
             height: 10,
           ),
+          //sms
           InkWell(
-            onTap: () {},
+            onTap: () {
+              Uri uri=Uri.parse('sms:+91 6353600958');
+              launcher.launchUrl(uri);
+            },
             child: Container(
               height: 70,
               width: 300,
@@ -157,8 +169,12 @@ class ContactScreen extends StatelessWidget {
             ),
           ),
           SizedBox(height: 20,),
+          //insta
           InkWell(
-            onTap: () {},
+            onTap: () {
+              Uri uri=Uri.parse('https://www.instagram.com/');
+              launcher.launchUrl(uri);
+            },
             child: Container(
               height: 70,
               width: 300,
@@ -174,7 +190,7 @@ class ContactScreen extends StatelessWidget {
                       width: 20,
                     ),
                     Text(
-                      "Instadram",
+                      "Instagram",
                       style:
                       TextStyle(fontWeight: FontWeight.w500, fontSize: 18),
                     )
@@ -184,8 +200,12 @@ class ContactScreen extends StatelessWidget {
             ),
           ),
           SizedBox(height: 10,),
+          //github
           InkWell(
-            onTap: () {},
+            onTap: () {
+              Uri uri=Uri.parse('https://github.com/DarshanPatel311');
+              launcher.launchUrl(uri);
+            },
             child: Container(
               height: 70,
               width: 300,
@@ -202,6 +222,37 @@ class ContactScreen extends StatelessWidget {
                     ),
                     Text(
                       "Github",
+                      style:
+                      TextStyle(fontWeight: FontWeight.w500, fontSize: 18),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          SizedBox(height: 10,),
+          //LinkdIn
+          InkWell(
+            onTap: () {
+              Uri uri=Uri.parse('https://www.linkedin.com/in/darshan-patel-9a543b280/');
+              launcher.launchUrl(uri);
+            },
+            child: Container(
+              height: 70,
+              width: 300,
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  border: Border.all(color: Colors.blue)),
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                child: Row(
+                  children: [
+                    Image.asset("assets/img/linkedin.webp",height: 40,),
+                    SizedBox(
+                      width: 20,
+                    ),
+                    Text(
+                      "LinkedIn",
                       style:
                       TextStyle(fontWeight: FontWeight.w500, fontSize: 18),
                     )
