@@ -81,14 +81,16 @@
 <p align="center">
   <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/ff0ba032-f6d4-41fc-aef7-c6414c60ff67' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
   <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/47b3aabb-f27d-4a63-b60d-d145b5dd2afa' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
- 
- <div align="center">
-    <video src="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/47a53e59-a223-43ed-ae1d-fd694b307da9" width="400">
-  </div></p>
+  <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/963b65dc-ce75-45fa-b80d-ef766ba19679' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+
+   <video src="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/47a53e59-a223-43ed-ae1d-fd694b307da9" width="400">
+          <video src="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/47a53e59-a223-43ed-ae1d-fd694b307da9" width="400">
+
   <div align="center">
     <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/tree/master/lib/1_7_gallery">👉 📚 Go to dart file 📚 👈</a>
       Adv_Flutter_Ch1
   </div></p>
-  
+
+
 
 
