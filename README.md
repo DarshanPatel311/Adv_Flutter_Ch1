@@ -84,12 +84,17 @@
   <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/963b65dc-ce75-45fa-b80d-ef766ba19679' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
 
    <video src="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/47a53e59-a223-43ed-ae1d-fd694b307da9" width="400">
-          <video src="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/47a53e59-a223-43ed-ae1d-fd694b307da9" width="400">
+  
 
   <div align="center">
     <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/tree/master/lib/1_7_gallery">👉 📚 Go to dart file 📚 👈</a>
       Adv_Flutter_Ch1
   </div></p>
+   <video src="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/ac53555f-cabd-4d65-a048-de030ba4b141" width="400">
+
+
+
+
 
 
 
