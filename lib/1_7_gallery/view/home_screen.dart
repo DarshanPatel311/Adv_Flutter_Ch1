@@ -156,8 +156,8 @@ class GalleryScreen extends StatelessWidget {
               ),
             ],
             child:  Container(
-                height: 100,
-                width: 100,
+                height: 300,
+                width: 300,
                 decoration: BoxDecoration(
                   color: Colors.black,
                   borderRadius: BorderRadius.circular(10),
