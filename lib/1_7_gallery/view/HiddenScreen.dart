@@ -21,38 +21,62 @@ class HiddenScreen extends StatelessWidget {
           Icon(Icons.more_vert,color: Colors.black,size: 30,),
         ],
       ),
-      body:  GridView.builder(
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 5,horizontal: 20),
+            child: Text("Hidden Photos",style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 18,
 
-        itemCount: 10,
-        physics: ScrollPhysics(),
-        shrinkWrap: true,
-        scrollDirection: Axis.vertical,
-        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 3,
-            mainAxisSpacing: 10,
-            mainAxisExtent: 140
-        ),
-        itemBuilder: (context, index) =>
-            imgBox(Profile[index]['img'],Profile[index]['name'],Profile[index]['count']), ),
+            ),),
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+
+              Container(
+                height: 100,
+                width: 100,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.black,
+                  image: DecorationImage(
+                    image: AssetImage("assets/gallery/car1.jpg"),
+                    fit: BoxFit.cover,
+                  )
+                ),
+              ),
+              Container(
+                height: 100,
+                width: 100,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.black,
+                  image: DecorationImage(
+                    image: AssetImage("assets/gallery/download.jpg"),
+                    fit: BoxFit.cover,
+                  )
+                ),
+              ),
+              Container(
+                height: 100,
+                width: 100,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.black,
+                  image: DecorationImage(
+                    image: AssetImage("assets/gallery/download (1).jpg"),
+                    fit: BoxFit.cover,
+                  )
+                ),
+              ),
+            ],
+          ),
+
+        ],
+      )
     );
   }
-} Column imgBox(String img1,String name,int num) {
-  return Column(
-    children: [
-      Container(
-        height: 100,
-        width: 100,
-        decoration: BoxDecoration(
-            color: Colors.black,
-            borderRadius: BorderRadius.circular(10),
-            image: DecorationImage(
-                image: AssetImage(img1),
-                fit: BoxFit.cover
-            )
-        ),
-      ),
-      Text(name),
-      Text(num.toString())
-    ],
-  );
 }
